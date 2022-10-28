@@ -22,7 +22,7 @@ def home():
 
 @app.route("/greet")
 def greet():
-    fname = request.args.get('fname', 'Mark Jigger Masacupan')
+    fname = request.args.get('fname', 'Niela Marie P. Hosmillo')
     char = request.args['char']
     fixedword = ('is')
 
